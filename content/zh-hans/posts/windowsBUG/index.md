@@ -19,6 +19,18 @@ categories:
 重启windows资源管理器即可
 ![](EX.jpg)
 
+
+### 简体中文美式键盘删除
+
+有时候电脑会莫名其妙的多出了一个简体中文美式键盘,完全就没啥用
+![](jianpan.jpg)
+
+`WIN+R`输入`regedit`打开注册表编辑器:`计算机\HKEY_CURRENT_USER\Keyboard Layout\Preload`里面有多个项目
+
+- 可以一个一个删除`重启电脑`查看是否删除
+- 也可以只保留`默认`其他几个都删除
+
+
 ### Win10 inetpub文件夹
 inetpub是IIS服务端的一个文件夹，电脑里安装了Internet Information Services （简称IIS）这个服务后就会出现这个文件夹，所以我们要把这个服务停止或者卸载掉就可以了。
 
