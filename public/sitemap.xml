@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.hmfgu.com/categories/</loc>
-    <lastmod>2023-03-03T19:13:29+08:00</lastmod>
+    <lastmod>2023-03-03T19:28:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.hmfgu.com/posts/</loc>
-    <lastmod>2023-03-03T19:13:29+08:00</lastmod>
+    <lastmod>2023-03-03T19:28:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.hmfgu.com/tags/</loc>
-    <lastmod>2023-03-03T19:13:29+08:00</lastmod>
+    <lastmod>2023-03-03T19:28:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -33,7 +33,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.hmfgu.com/</loc>
-    <lastmod>2023-03-03T19:13:29+08:00</lastmod>
+    <lastmod>2023-03-03T19:28:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -83,7 +83,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.hmfgu.com/categories/%E7%94%BB%E5%BB%8A/</loc>
-    <lastmod>2023-03-03T19:13:29+08:00</lastmod>
+    <lastmod>2023-03-03T19:28:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -122,23 +122,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hmfgu.com/tags/%E5%B0%8F%E5%90%89/</loc>
-    <lastmod>2023-03-03T19:13:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.hmfgu.com/2022/03/15/xj-yhq.html/</loc>
-    <lastmod>2023-03-03T19:13:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.hmfgu.com/2022/03/15/ytm-sahua.html/</loc>
     <lastmod>2023-02-25T11:13:39+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.hmfgu.com/tags/%E6%9C%88%E5%8D%8E%E6%B8%85/</loc>
-    <lastmod>2023-03-03T19:13:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -164,6 +149,21 @@
   </url><url>
     <loc>https://www.hmfgu.com/2022/01/10/ytm-sahua.html/</loc>
     <lastmod>2023-02-25T11:13:56+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.hmfgu.com/tags/%E5%B0%8F%E5%90%89/</loc>
+    <lastmod>2023-03-03T19:28:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.hmfgu.com/2022/01/01/xj-yhq.html/</loc>
+    <lastmod>2023-03-03T19:28:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.hmfgu.com/tags/%E6%9C%88%E5%8D%8E%E6%B8%85/</loc>
+    <lastmod>2023-03-03T19:28:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
