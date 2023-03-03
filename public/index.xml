@@ -1097,152 +1097,152 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;div class=&#34;carousel&#34;&gt;
-    &lt;div class=&#34;slider-wrapper&#34;&gt;&lt;input id=&#34;slide-397186425-0&#34;checked=&#34;checked&#34;name=&#34;slide-397186425-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-397186425-1&#34;name=&#34;slide-397186425-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-397186425-2&#34;name=&#34;slide-397186425-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-397186425-3&#34;name=&#34;slide-397186425-slides&#34; type=&#34;radio&#34; /&gt;&lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-397186425-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-397186425-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-397186425-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-397186425-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-397186425-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-397186425-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-397186425-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-397186425-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-nav&#34;&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-397186425-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-397186425-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-397186425-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-397186425-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-content&#34;&gt;&lt;div class=&#34;slide slide-397186425-0&#34;&gt;
+    &lt;div class=&#34;slider-wrapper&#34;&gt;&lt;input id=&#34;slide-425869731-0&#34;checked=&#34;checked&#34;name=&#34;slide-425869731-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-425869731-1&#34;name=&#34;slide-425869731-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-425869731-2&#34;name=&#34;slide-425869731-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-425869731-3&#34;name=&#34;slide-425869731-slides&#34; type=&#34;radio&#34; /&gt;&lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-425869731-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-425869731-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-425869731-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-425869731-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-425869731-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-425869731-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-425869731-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-425869731-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-nav&#34;&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-425869731-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-425869731-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-425869731-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-425869731-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-content&#34;&gt;&lt;div class=&#34;slide slide-425869731-0&#34;&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=1&#34; /&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=1&#34; alt=&#34;&#34; /&gt;
-                &lt;/div&gt;&lt;div class=&#34;slide slide-397186425-1&#34;&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-425869731-1&#34;&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=2&#34; /&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=2&#34; alt=&#34;&#34; /&gt;
-                &lt;/div&gt;&lt;div class=&#34;slide slide-397186425-2&#34;&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-425869731-2&#34;&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=3&#34; /&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=3&#34; alt=&#34;&#34; /&gt;
-                &lt;/div&gt;&lt;div class=&#34;slide slide-397186425-3&#34;&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-425869731-3&#34;&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=4&#34; /&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=4&#34; alt=&#34;&#34; /&gt;
                 &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
-    &lt;style&gt;#slide-397186425-0:checked ~ .slider-content .slide-397186425-0{
+    &lt;style&gt;#slide-425869731-0:checked ~ .slider-content .slide-425869731-0{
                 
                 opacity:1;
             }
-            #slide-397186425-0:checked ~ .slider-nav .nav-button[for=&#34;slide-397186425-0&#34;]{
+            #slide-425869731-0:checked ~ .slider-nav .nav-button[for=&#34;slide-425869731-0&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-397186425-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-397186425-0&#34;] + .nav-arrow{
+            #slide-425869731-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-425869731-0&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-397186425-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-397186425-0&#34;]:last-of-type{
+            #slide-425869731-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-425869731-0&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-397186425-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-397186425-0&#34;],
-            #slide-397186425-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-397186425-0&#34;] ~ .nav-arrow.prev{
+            #slide-425869731-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-425869731-0&#34;],
+            #slide-425869731-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-425869731-0&#34;] ~ .nav-arrow.prev{
                 z-index:2;
-            }#slide-397186425-1:checked ~ .slider-content .slide-397186425-1{
+            }#slide-425869731-1:checked ~ .slider-content .slide-425869731-1{
                 
                 opacity:1;
             }
-            #slide-397186425-1:checked ~ .slider-nav .nav-button[for=&#34;slide-397186425-1&#34;]{
+            #slide-425869731-1:checked ~ .slider-nav .nav-button[for=&#34;slide-425869731-1&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-397186425-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-397186425-1&#34;] + .nav-arrow{
+            #slide-425869731-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-425869731-1&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-397186425-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-397186425-1&#34;]:last-of-type{
+            #slide-425869731-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-425869731-1&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-397186425-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-397186425-1&#34;],
-            #slide-397186425-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-397186425-1&#34;] ~ .nav-arrow.prev{
+            #slide-425869731-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-425869731-1&#34;],
+            #slide-425869731-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-425869731-1&#34;] ~ .nav-arrow.prev{
                 z-index:2;
-            }#slide-397186425-2:checked ~ .slider-content .slide-397186425-2{
+            }#slide-425869731-2:checked ~ .slider-content .slide-425869731-2{
                 
                 opacity:1;
             }
-            #slide-397186425-2:checked ~ .slider-nav .nav-button[for=&#34;slide-397186425-2&#34;]{
+            #slide-425869731-2:checked ~ .slider-nav .nav-button[for=&#34;slide-425869731-2&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-397186425-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-397186425-2&#34;] + .nav-arrow{
+            #slide-425869731-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-425869731-2&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-397186425-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-397186425-2&#34;]:last-of-type{
+            #slide-425869731-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-425869731-2&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-397186425-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-397186425-2&#34;],
-            #slide-397186425-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-397186425-2&#34;] ~ .nav-arrow.prev{
+            #slide-425869731-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-425869731-2&#34;],
+            #slide-425869731-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-425869731-2&#34;] ~ .nav-arrow.prev{
                 z-index:2;
-            }#slide-397186425-3:checked ~ .slider-content .slide-397186425-3{
+            }#slide-425869731-3:checked ~ .slider-content .slide-425869731-3{
                 
                 opacity:1;
             }
-            #slide-397186425-3:checked ~ .slider-nav .nav-button[for=&#34;slide-397186425-3&#34;]{
+            #slide-425869731-3:checked ~ .slider-nav .nav-button[for=&#34;slide-425869731-3&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-397186425-3:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-397186425-3&#34;] + .nav-arrow{
+            #slide-425869731-3:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-425869731-3&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-397186425-3:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-397186425-3&#34;]:last-of-type{
+            #slide-425869731-3:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-425869731-3&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-397186425-3:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-397186425-3&#34;],
-            #slide-397186425-3:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-397186425-3&#34;] ~ .nav-arrow.prev{
+            #slide-425869731-3:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-425869731-3&#34;],
+            #slide-425869731-3:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-425869731-3&#34;] ~ .nav-arrow.prev{
                 z-index:2;
             }&lt;/style&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;carousel&#34;&gt;
-    &lt;div class=&#34;slider-wrapper&#34;&gt;&lt;input id=&#34;slide-182659437-0&#34;checked=&#34;checked&#34;name=&#34;slide-182659437-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-182659437-1&#34;name=&#34;slide-182659437-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-182659437-2&#34;name=&#34;slide-182659437-slides&#34; type=&#34;radio&#34; /&gt;&lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-182659437-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-182659437-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-182659437-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-182659437-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-182659437-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-182659437-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-nav&#34;&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-182659437-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-182659437-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-182659437-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-content&#34;&gt;&lt;div class=&#34;slide slide-182659437-0&#34;&gt;
+    &lt;div class=&#34;slider-wrapper&#34;&gt;&lt;input id=&#34;slide-735942816-0&#34;checked=&#34;checked&#34;name=&#34;slide-735942816-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-735942816-1&#34;name=&#34;slide-735942816-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-735942816-2&#34;name=&#34;slide-735942816-slides&#34; type=&#34;radio&#34; /&gt;&lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-735942816-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-735942816-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-735942816-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-735942816-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-735942816-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-735942816-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-nav&#34;&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-735942816-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-735942816-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-735942816-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-content&#34;&gt;&lt;div class=&#34;slide slide-735942816-0&#34;&gt;
                     &lt;img src=&#34;1.jpg&#34; /&gt;
                     &lt;img src=&#34;1.jpg&#34; alt=&#34;&#34; /&gt;
-                &lt;/div&gt;&lt;div class=&#34;slide slide-182659437-1&#34;&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-735942816-1&#34;&gt;
                     &lt;img src=&#34;2.jpg&#34; /&gt;
                     &lt;img src=&#34;2.jpg&#34; alt=&#34;&#34; /&gt;
-                &lt;/div&gt;&lt;div class=&#34;slide slide-182659437-2&#34;&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-735942816-2&#34;&gt;
                     &lt;img src=&#34;3.jpg&#34; /&gt;
                     &lt;img src=&#34;3.jpg&#34; alt=&#34;&#34; /&gt;
                 &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
-    &lt;style&gt;#slide-182659437-0:checked ~ .slider-content .slide-182659437-0{
+    &lt;style&gt;#slide-735942816-0:checked ~ .slider-content .slide-735942816-0{
                 
                 opacity:1;
             }
-            #slide-182659437-0:checked ~ .slider-nav .nav-button[for=&#34;slide-182659437-0&#34;]{
+            #slide-735942816-0:checked ~ .slider-nav .nav-button[for=&#34;slide-735942816-0&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-182659437-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-182659437-0&#34;] + .nav-arrow{
+            #slide-735942816-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-735942816-0&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-182659437-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-182659437-0&#34;]:last-of-type{
+            #slide-735942816-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-735942816-0&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-182659437-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-182659437-0&#34;],
-            #slide-182659437-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-182659437-0&#34;] ~ .nav-arrow.prev{
+            #slide-735942816-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-735942816-0&#34;],
+            #slide-735942816-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-735942816-0&#34;] ~ .nav-arrow.prev{
                 z-index:2;
-            }#slide-182659437-1:checked ~ .slider-content .slide-182659437-1{
+            }#slide-735942816-1:checked ~ .slider-content .slide-735942816-1{
                 
                 opacity:1;
             }
-            #slide-182659437-1:checked ~ .slider-nav .nav-button[for=&#34;slide-182659437-1&#34;]{
+            #slide-735942816-1:checked ~ .slider-nav .nav-button[for=&#34;slide-735942816-1&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-182659437-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-182659437-1&#34;] + .nav-arrow{
+            #slide-735942816-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-735942816-1&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-182659437-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-182659437-1&#34;]:last-of-type{
+            #slide-735942816-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-735942816-1&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-182659437-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-182659437-1&#34;],
-            #slide-182659437-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-182659437-1&#34;] ~ .nav-arrow.prev{
+            #slide-735942816-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-735942816-1&#34;],
+            #slide-735942816-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-735942816-1&#34;] ~ .nav-arrow.prev{
                 z-index:2;
-            }#slide-182659437-2:checked ~ .slider-content .slide-182659437-2{
+            }#slide-735942816-2:checked ~ .slider-content .slide-735942816-2{
                 
                 opacity:1;
             }
-            #slide-182659437-2:checked ~ .slider-nav .nav-button[for=&#34;slide-182659437-2&#34;]{
+            #slide-735942816-2:checked ~ .slider-nav .nav-button[for=&#34;slide-735942816-2&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-182659437-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-182659437-2&#34;] + .nav-arrow{
+            #slide-735942816-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-735942816-2&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-182659437-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-182659437-2&#34;]:last-of-type{
+            #slide-735942816-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-735942816-2&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-182659437-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-182659437-2&#34;],
-            #slide-182659437-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-182659437-2&#34;] ~ .nav-arrow.prev{
+            #slide-735942816-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-735942816-2&#34;],
+            #slide-735942816-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-735942816-2&#34;] ~ .nav-arrow.prev{
                 z-index:2;
             }&lt;/style&gt;
 &lt;/div&gt;
@@ -1362,18 +1362,18 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;div class=&#34;tabs my-4 flex flex-wrap&#34;&gt;
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-527186394-&#34;checked=&#34;checked&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-527186394-&#34;&gt;中文&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-397814625-&#34;checked=&#34;checked&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-397814625-&#34;&gt;中文&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;百合花（学名：Lilium）通称百合花，是百合目百合科的一属，为多年生草本球根植物，属内物种繁多，经常作为观赏植物。主要分布在亚洲东部、欧洲、北美洲等北半球温带地区，全球已发现有至少96个品种，其中5种产于台湾。近年更有不少经过人工杂交而产生的新品种，如OT百合、东方型百合、玫瑰百合等。百合属对猫来说有剧毒。&lt;/div&gt;
 
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-973846152-&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-973846152-&#34;&gt;English&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-416283579-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-416283579-&#34;&gt;English&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;Lilium is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers. They are the true lilies. Lilies are a group of flowering plants which are important in culture and literature in much of the world. Most species are native to the northern hemisphere and their range is temperate climates and extends into the subtropics. Many other plants have &amp;ldquo;lily&amp;rdquo; in their common names, but do not belong to the same genus and are therefore not true lilies.&lt;/div&gt;
 
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-854316927-&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-854316927-&#34;&gt;Español&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-348961275-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-348961275-&#34;&gt;Español&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;Las especies de Lilium, comúnmente llamadas azucenas o lirios, constituyen un género con alrededor de 110 integrantes que se incluye dentro de la familia de las liliáceas. Los lirios son herbáceas perennes de tallos erectos con numerosas hojas alternas, lineares a lance balas. Crecen a partir de bulbos formados por capas de escamas carnosas sin túnica.&lt;/div&gt;
 
 

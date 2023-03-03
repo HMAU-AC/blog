@@ -2,7 +2,7 @@
 
 set -e
 
-git pull
+git pull git@github.com:HMAU-AC/blog.git master
 
 hugo
 
