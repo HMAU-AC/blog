@@ -13,4 +13,4 @@ jobs:
         access-key-id: ${{ secrets.ACCESS_KEY_ID }}
         access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
         
-    - run: ossutil cp ./public oss://wp-hmau/ -r --snapshot-path=test_snapshot # 将xxxxx改为创建的Bucket名称，-rf表示覆盖
+    - run: ossutil cp ./public oss://wp-hmau/ -rf -u # 将xxxxx改为创建的Bucket名称，-rf表示覆盖
