@@ -13,9 +13,115 @@
         <link>https://www.hmfgu.com/</link>
         <managingEditor>HMAU</managingEditor>
         <description>爱吃素的胖子</description>
-        <lastBuildDate>Fri, 24 Feb 2023 08:59:44 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 05 Mar 2023 21:00:44 +0800</lastBuildDate>
         <language>en-us</language>
         <generator>Hugo -- gohugo.io</generator><item>
+            <title>Linux问题汇总</title>
+            <link>https://www.hmfgu.com/2023/03/05/linux-wenti.html/</link>
+            <pubDate>Sun, 05 Mar 2023 21:00:44 +0800</pubDate>
+            <guid>https://www.hmfgu.com/2023/03/05/linux-wenti.html/</guid><description>
+
+&lt;h3 class=&#34;group &#34; id=&#34;解决启动unbentu启动后还要在选一次unbentu的问题&#34;
+    &gt;解决启动Unbentu启动后还要在选一次unbentu的问题&lt;a href=&#34;#%e8%a7%a3%e5%86%b3%e5%90%af%e5%8a%a8unbentu%e5%90%af%e5%8a%a8%e5%90%8e%e8%bf%98%e8%a6%81%e5%9c%a8%e9%80%89%e4%b8%80%e6%ac%a1unbentu%e7%9a%84%e9%97%ae%e9%a2%98&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;cd&lt;/span&gt; /etc/default/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo vim grub
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;GRUB_TIMEOUT&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;10&lt;/span&gt;  //10改称0 如图2
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;i     //编辑
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;esc   //退出编辑
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:wq   //保存
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;
+
+
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;cd&lt;/span&gt; /etc/     //如果还在default目录则输入：cd ../  退到上级目录etc/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo vim grub.d
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;30_os-prober*   //上下键选择到这个回车（Enter）  如图3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;// 找到如下代码：👇
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;adjust_timeout &lt;span style=&#34;color:#ff79c6&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#ff79c6&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;$quick_boot&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#bd93f9&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;x&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;found_other_os&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;&lt;/span&gt; !&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;x&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;]&lt;/span&gt;; &lt;span style=&#34;color:#ff79c6&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cat &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;lt;&amp;lt; EOF
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;set timeout_style=menu
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;if [ &amp;#34;\${timeout}&amp;#34; = 0 ]; then
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;  set timeout=10    //这的10改0  如图4
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;fi
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;EOF&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#ff79c6&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;i     //编辑
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;esc   //退出编辑
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:wq   //保存
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;
+
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;重点两个改完一定要执行下面命令使grub生效&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo update-grub
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item>
             <title>Windows系统小bug解决方法</title>
             <link>https://www.hmfgu.com/2023/02/24/windowsbug.html/</link>
             <pubDate>Fri, 24 Feb 2023 08:59:44 +0800</pubDate>
@@ -621,7 +727,7 @@
             &lt;/div&gt;
             &lt;div class=&#34;mr-4 inline-flex items-center&#34;&gt;
                 &lt;i class=&#34;eva eva-star mr-1 text-amber-400&#34;&gt;&lt;/i&gt;
-                &lt;span&gt;218&lt;/span&gt;
+                &lt;span&gt;219&lt;/span&gt;
             &lt;/div&gt;
             &lt;div class=&#34;inline-flex items-center&#34;&gt;
                 &lt;i class=&#34;eva eva-shuffle-2 mr-1 text-blue-500&#34;&gt;&lt;/i&gt;
@@ -1097,152 +1203,152 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;div class=&#34;carousel&#34;&gt;
-    &lt;div class=&#34;slider-wrapper&#34;&gt;&lt;input id=&#34;slide-576983142-0&#34;checked=&#34;checked&#34;name=&#34;slide-576983142-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-576983142-1&#34;name=&#34;slide-576983142-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-576983142-2&#34;name=&#34;slide-576983142-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-576983142-3&#34;name=&#34;slide-576983142-slides&#34; type=&#34;radio&#34; /&gt;&lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-576983142-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-576983142-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-576983142-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-576983142-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-576983142-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-576983142-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-576983142-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-576983142-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-nav&#34;&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-576983142-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-576983142-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-576983142-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-576983142-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-content&#34;&gt;&lt;div class=&#34;slide slide-576983142-0&#34;&gt;
+    &lt;div class=&#34;slider-wrapper&#34;&gt;&lt;input id=&#34;slide-923647185-0&#34;checked=&#34;checked&#34;name=&#34;slide-923647185-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-923647185-1&#34;name=&#34;slide-923647185-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-923647185-2&#34;name=&#34;slide-923647185-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-923647185-3&#34;name=&#34;slide-923647185-slides&#34; type=&#34;radio&#34; /&gt;&lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-923647185-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-923647185-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-923647185-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-923647185-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-923647185-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-923647185-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-923647185-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-923647185-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-nav&#34;&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-923647185-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-923647185-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-923647185-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-923647185-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-content&#34;&gt;&lt;div class=&#34;slide slide-923647185-0&#34;&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=1&#34; /&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=1&#34; alt=&#34;&#34; /&gt;
-                &lt;/div&gt;&lt;div class=&#34;slide slide-576983142-1&#34;&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-923647185-1&#34;&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=2&#34; /&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=2&#34; alt=&#34;&#34; /&gt;
-                &lt;/div&gt;&lt;div class=&#34;slide slide-576983142-2&#34;&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-923647185-2&#34;&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=3&#34; /&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=3&#34; alt=&#34;&#34; /&gt;
-                &lt;/div&gt;&lt;div class=&#34;slide slide-576983142-3&#34;&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-923647185-3&#34;&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=4&#34; /&gt;
                     &lt;img src=&#34;https://unsplash.it/1920/1080/?random=4&#34; alt=&#34;&#34; /&gt;
                 &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
-    &lt;style&gt;#slide-576983142-0:checked ~ .slider-content .slide-576983142-0{
+    &lt;style&gt;#slide-923647185-0:checked ~ .slider-content .slide-923647185-0{
                 
                 opacity:1;
             }
-            #slide-576983142-0:checked ~ .slider-nav .nav-button[for=&#34;slide-576983142-0&#34;]{
+            #slide-923647185-0:checked ~ .slider-nav .nav-button[for=&#34;slide-923647185-0&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-576983142-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-576983142-0&#34;] + .nav-arrow{
+            #slide-923647185-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-923647185-0&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-576983142-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-576983142-0&#34;]:last-of-type{
+            #slide-923647185-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-923647185-0&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-576983142-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-576983142-0&#34;],
-            #slide-576983142-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-576983142-0&#34;] ~ .nav-arrow.prev{
+            #slide-923647185-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-923647185-0&#34;],
+            #slide-923647185-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-923647185-0&#34;] ~ .nav-arrow.prev{
                 z-index:2;
-            }#slide-576983142-1:checked ~ .slider-content .slide-576983142-1{
+            }#slide-923647185-1:checked ~ .slider-content .slide-923647185-1{
                 
                 opacity:1;
             }
-            #slide-576983142-1:checked ~ .slider-nav .nav-button[for=&#34;slide-576983142-1&#34;]{
+            #slide-923647185-1:checked ~ .slider-nav .nav-button[for=&#34;slide-923647185-1&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-576983142-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-576983142-1&#34;] + .nav-arrow{
+            #slide-923647185-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-923647185-1&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-576983142-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-576983142-1&#34;]:last-of-type{
+            #slide-923647185-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-923647185-1&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-576983142-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-576983142-1&#34;],
-            #slide-576983142-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-576983142-1&#34;] ~ .nav-arrow.prev{
+            #slide-923647185-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-923647185-1&#34;],
+            #slide-923647185-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-923647185-1&#34;] ~ .nav-arrow.prev{
                 z-index:2;
-            }#slide-576983142-2:checked ~ .slider-content .slide-576983142-2{
+            }#slide-923647185-2:checked ~ .slider-content .slide-923647185-2{
                 
                 opacity:1;
             }
-            #slide-576983142-2:checked ~ .slider-nav .nav-button[for=&#34;slide-576983142-2&#34;]{
+            #slide-923647185-2:checked ~ .slider-nav .nav-button[for=&#34;slide-923647185-2&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-576983142-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-576983142-2&#34;] + .nav-arrow{
+            #slide-923647185-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-923647185-2&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-576983142-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-576983142-2&#34;]:last-of-type{
+            #slide-923647185-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-923647185-2&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-576983142-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-576983142-2&#34;],
-            #slide-576983142-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-576983142-2&#34;] ~ .nav-arrow.prev{
+            #slide-923647185-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-923647185-2&#34;],
+            #slide-923647185-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-923647185-2&#34;] ~ .nav-arrow.prev{
                 z-index:2;
-            }#slide-576983142-3:checked ~ .slider-content .slide-576983142-3{
+            }#slide-923647185-3:checked ~ .slider-content .slide-923647185-3{
                 
                 opacity:1;
             }
-            #slide-576983142-3:checked ~ .slider-nav .nav-button[for=&#34;slide-576983142-3&#34;]{
+            #slide-923647185-3:checked ~ .slider-nav .nav-button[for=&#34;slide-923647185-3&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-576983142-3:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-576983142-3&#34;] + .nav-arrow{
+            #slide-923647185-3:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-923647185-3&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-576983142-3:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-576983142-3&#34;]:last-of-type{
+            #slide-923647185-3:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-923647185-3&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-576983142-3:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-576983142-3&#34;],
-            #slide-576983142-3:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-576983142-3&#34;] ~ .nav-arrow.prev{
+            #slide-923647185-3:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-923647185-3&#34;],
+            #slide-923647185-3:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-923647185-3&#34;] ~ .nav-arrow.prev{
                 z-index:2;
             }&lt;/style&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;carousel&#34;&gt;
-    &lt;div class=&#34;slider-wrapper&#34;&gt;&lt;input id=&#34;slide-682451379-0&#34;checked=&#34;checked&#34;name=&#34;slide-682451379-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-682451379-1&#34;name=&#34;slide-682451379-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-682451379-2&#34;name=&#34;slide-682451379-slides&#34; type=&#34;radio&#34; /&gt;&lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-682451379-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-682451379-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-682451379-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-682451379-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-682451379-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-682451379-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-nav&#34;&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-682451379-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-682451379-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-682451379-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&#34;slider-content&#34;&gt;&lt;div class=&#34;slide slide-682451379-0&#34;&gt;
+    &lt;div class=&#34;slider-wrapper&#34;&gt;&lt;input id=&#34;slide-631795842-0&#34;checked=&#34;checked&#34;name=&#34;slide-631795842-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-631795842-1&#34;name=&#34;slide-631795842-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-631795842-2&#34;name=&#34;slide-631795842-slides&#34; type=&#34;radio&#34; /&gt;&lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-631795842-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-631795842-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-631795842-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-631795842-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-631795842-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-631795842-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-nav&#34;&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-631795842-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-631795842-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-631795842-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-content&#34;&gt;&lt;div class=&#34;slide slide-631795842-0&#34;&gt;
                     &lt;img src=&#34;1.jpg&#34; /&gt;
                     &lt;img src=&#34;1.jpg&#34; alt=&#34;&#34; /&gt;
-                &lt;/div&gt;&lt;div class=&#34;slide slide-682451379-1&#34;&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-631795842-1&#34;&gt;
                     &lt;img src=&#34;2.jpg&#34; /&gt;
                     &lt;img src=&#34;2.jpg&#34; alt=&#34;&#34; /&gt;
-                &lt;/div&gt;&lt;div class=&#34;slide slide-682451379-2&#34;&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-631795842-2&#34;&gt;
                     &lt;img src=&#34;3.jpg&#34; /&gt;
                     &lt;img src=&#34;3.jpg&#34; alt=&#34;&#34; /&gt;
                 &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
-    &lt;style&gt;#slide-682451379-0:checked ~ .slider-content .slide-682451379-0{
+    &lt;style&gt;#slide-631795842-0:checked ~ .slider-content .slide-631795842-0{
                 
                 opacity:1;
             }
-            #slide-682451379-0:checked ~ .slider-nav .nav-button[for=&#34;slide-682451379-0&#34;]{
+            #slide-631795842-0:checked ~ .slider-nav .nav-button[for=&#34;slide-631795842-0&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-682451379-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-682451379-0&#34;] + .nav-arrow{
+            #slide-631795842-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-631795842-0&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-682451379-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-682451379-0&#34;]:last-of-type{
+            #slide-631795842-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-631795842-0&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-682451379-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-682451379-0&#34;],
-            #slide-682451379-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-682451379-0&#34;] ~ .nav-arrow.prev{
+            #slide-631795842-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-631795842-0&#34;],
+            #slide-631795842-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-631795842-0&#34;] ~ .nav-arrow.prev{
                 z-index:2;
-            }#slide-682451379-1:checked ~ .slider-content .slide-682451379-1{
+            }#slide-631795842-1:checked ~ .slider-content .slide-631795842-1{
                 
                 opacity:1;
             }
-            #slide-682451379-1:checked ~ .slider-nav .nav-button[for=&#34;slide-682451379-1&#34;]{
+            #slide-631795842-1:checked ~ .slider-nav .nav-button[for=&#34;slide-631795842-1&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-682451379-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-682451379-1&#34;] + .nav-arrow{
+            #slide-631795842-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-631795842-1&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-682451379-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-682451379-1&#34;]:last-of-type{
+            #slide-631795842-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-631795842-1&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-682451379-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-682451379-1&#34;],
-            #slide-682451379-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-682451379-1&#34;] ~ .nav-arrow.prev{
+            #slide-631795842-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-631795842-1&#34;],
+            #slide-631795842-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-631795842-1&#34;] ~ .nav-arrow.prev{
                 z-index:2;
-            }#slide-682451379-2:checked ~ .slider-content .slide-682451379-2{
+            }#slide-631795842-2:checked ~ .slider-content .slide-631795842-2{
                 
                 opacity:1;
             }
-            #slide-682451379-2:checked ~ .slider-nav .nav-button[for=&#34;slide-682451379-2&#34;]{
+            #slide-631795842-2:checked ~ .slider-nav .nav-button[for=&#34;slide-631795842-2&#34;]{
                     background: rgba(255,255,255,1);
             }
-            #slide-682451379-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-682451379-2&#34;] + .nav-arrow{
+            #slide-631795842-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-631795842-2&#34;] + .nav-arrow{
                 z-index:4;
             }
-            #slide-682451379-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-682451379-2&#34;]:last-of-type{
+            #slide-631795842-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-631795842-2&#34;]:last-of-type{
                 z-index:2;
             }
-            #slide-682451379-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-682451379-2&#34;],
-            #slide-682451379-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-682451379-2&#34;] ~ .nav-arrow.prev{
+            #slide-631795842-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-631795842-2&#34;],
+            #slide-631795842-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-631795842-2&#34;] ~ .nav-arrow.prev{
                 z-index:2;
             }&lt;/style&gt;
 &lt;/div&gt;
@@ -1362,18 +1468,18 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;div class=&#34;tabs my-4 flex flex-wrap&#34;&gt;
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-195268743-&#34;checked=&#34;checked&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-195268743-&#34;&gt;中文&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-296574831-&#34;checked=&#34;checked&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-296574831-&#34;&gt;中文&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;百合花（学名：Lilium）通称百合花，是百合目百合科的一属，为多年生草本球根植物，属内物种繁多，经常作为观赏植物。主要分布在亚洲东部、欧洲、北美洲等北半球温带地区，全球已发现有至少96个品种，其中5种产于台湾。近年更有不少经过人工杂交而产生的新品种，如OT百合、东方型百合、玫瑰百合等。百合属对猫来说有剧毒。&lt;/div&gt;
 
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-724319685-&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-724319685-&#34;&gt;English&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-178364295-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-178364295-&#34;&gt;English&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;Lilium is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers. They are the true lilies. Lilies are a group of flowering plants which are important in culture and literature in much of the world. Most species are native to the northern hemisphere and their range is temperate climates and extends into the subtropics. Many other plants have &amp;ldquo;lily&amp;rdquo; in their common names, but do not belong to the same genus and are therefore not true lilies.&lt;/div&gt;
 
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-537498261-&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-537498261-&#34;&gt;Español&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-598472613-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-598472613-&#34;&gt;Español&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;Las especies de Lilium, comúnmente llamadas azucenas o lirios, constituyen un género con alrededor de 110 integrantes que se incluye dentro de la familia de las liliáceas. Los lirios son herbáceas perennes de tallos erectos con numerosas hojas alternas, lineares a lance balas. Crecen a partir de bulbos formados por capas de escamas carnosas sin túnica.&lt;/div&gt;
 
 
@@ -2500,58 +2606,6 @@ sudo vi /etc/systemd/system/rc-local.service
 &lt;p&gt;
 
 
-&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-
-&lt;h2 class=&#34;group &#34; id=&#34;说明&#34;
-    &gt;说明&lt;a href=&#34;#%e8%af%b4%e6%98%8e&#34;
-        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
-&gt;&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;本站不提供图片原图，所以图片均来自网络(￢︿̫̿￢☆)&lt;/p&gt;
-&lt;/blockquote&gt;
-</description></item><item>
-            <title>小吉（绮怀）</title>
-            <link>https://www.hmfgu.com/2022/02/04/xj-qh.html/</link>
-            <pubDate>Fri, 04 Feb 2022 14:09:13 +0200</pubDate>
-            <guid>https://www.hmfgu.com/2022/02/04/xj-qh.html/</guid><description>&lt;div class=&#34;gallery-box&#34;&gt;
-    &lt;p&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-&lt;/p&gt;
-&lt;p&gt;
-
-
-&lt;/p&gt;
-&lt;p&gt;
-
-
-&lt;/p&gt;
-&lt;p&gt;
-
-
-&lt;/p&gt;
-&lt;p&gt;
-
-
-&lt;/p&gt;
-&lt;p&gt;
-
-
-&lt;/p&gt;
-&lt;p&gt;
-
-
-&lt;/p&gt;
-&lt;p&gt;
 &lt;/p&gt;
 
 &lt;/div&gt;
