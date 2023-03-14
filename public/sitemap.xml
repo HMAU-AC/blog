@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.hmfgu.com/categories/</loc>
-    <lastmod>2023-03-06T21:11:39+08:00</lastmod>
+    <lastmod>2023-03-14T20:39:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -18,12 +18,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.hmfgu.com/posts/</loc>
-    <lastmod>2023-03-06T21:11:39+08:00</lastmod>
+    <lastmod>2023-03-14T20:39:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.hmfgu.com/tags/</loc>
-    <lastmod>2023-03-06T21:11:39+08:00</lastmod>
+    <lastmod>2023-03-14T20:39:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -33,7 +33,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.hmfgu.com/</loc>
-    <lastmod>2023-03-06T21:11:39+08:00</lastmod>
+    <lastmod>2023-03-14T20:39:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -98,7 +98,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.hmfgu.com/categories/%E7%94%BB%E5%BB%8A/</loc>
-    <lastmod>2023-03-04T20:52:13+08:00</lastmod>
+    <lastmod>2023-03-14T20:39:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -139,6 +139,21 @@
   </url><url>
     <loc>https://www.hmfgu.com/2022/03/15/ytm-sahua.html/</loc>
     <lastmod>2023-02-25T11:13:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.hmfgu.com/tags/%E5%B8%8C%E5%A8%9C%E5%B0%8F%E5%A7%90/</loc>
+    <lastmod>2023-03-14T20:39:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.hmfgu.com/tags/%E4%B8%80%E5%8C%97%E4%BA%A6%E5%8C%97/</loc>
+    <lastmod>2023-03-14T20:39:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.hmfgu.com/2022/03/14/ybyb-xnxj.html/</loc>
+    <lastmod>2023-03-14T20:39:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
