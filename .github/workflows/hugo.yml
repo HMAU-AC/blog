@@ -48,7 +48,7 @@ jobs:
               with:
                 personal_token: ${{ secrets.TOKEN }}
                 external_repository: "HMAU-AC/ioi"
-                publish_branch: main
+                publish_branch: master
                 publish_dir: ./public
                 force_orphan: true
                 user_name: HMAU-AC
